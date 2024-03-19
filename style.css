@@ -1,0 +1,37 @@
+.quiz-container {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.options-container {
+    display: flex;
+    justify-content: center;
+}
+
+.option {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: lightblue;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#submit-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
